@@ -6,9 +6,9 @@
   "scripts": {
     "start": "electron .",
     "build": "electron-builder build --mac --win --linux",
-    "build:mac": "electron-builder build --mac --publish always",
-    "build:win": "electron-builder build --win --publish always",
-    "build:linux": "electron-builder build --linux --publish always"
+    "build:mac": "electron-builder build --mac --publish=never",
+    "build:win": "electron-builder build --win --publish=never",
+    "build:linux": "electron-builder build --linux --publish=never"
   },
   "keywords": [
     "discord",
