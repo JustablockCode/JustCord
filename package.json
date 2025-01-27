@@ -2,7 +2,7 @@
   "name": "justcord",
   "version": "0.0.1",
   "description": "Lightweight modded discord client.",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "start": "electron .",
     "build": "electron-builder build --mac --win --linux",
