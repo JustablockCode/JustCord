@@ -1,83 +1,53 @@
-# Dependencies
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+/app-builds
+/release
+/target
+index.js
+preload.js
+src/**/*.js
+!src/karma.conf.js
+*.js.map
+.angular/
+.nx/
+
+# dependencies
 /node_modules
 
-# Build output
-/dist
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
-# Logs
-/logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# IDE - VSCode
+.vscode/*
+.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 
-# Runtime data
-/pids
-*.pid
-*.seed
-*.pid.lock
-
-# Coverage directory used by tools like istanbul
+# misc
+/.sass-cache
+/connect.lock
 /coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
 
-# nyc test coverage
-/.nyc_output
+# e2e
+/e2e/*.js
+!/e2e/protractor.conf.js
+/e2e/*.map
 
-# Grunt intermediate storage
-/.grunt
-
-# Bower dependency directory
-/bower_components
-
-# Compiled binary addons
-/build/Release
-
-# Dependency directories
-/jspm_packages
-
-# TypeScript cache
-/*.tsbuildinfo
-
-# Optional npm cache directory
-/.npm/
-
-# Optional eslint cache
-/.eslintcache
-
-# Optional REPL history
-/.node_repl_history
-
-# Output of 'npm pack'
-/*.tgz
-
-# Yarn Integrity file
-/.yarn-integrity
-
-# dotenv environment variables file
-/.env
-/.env.test
-
-# parcel-bundler cache
-/.cache
-
-# next.js build output
-/.next
-
-# nuxt.js build output
-/.nuxt
-
-# vuepress build output
-/.vuepress/dist
-
-# Serverless directories
-/.serverless
-
-# FuseBox cache
-/.fusebox
-
-# DynamoDB Local files
-/.dynamodb
-
-# OS generated files
+# System Files
 .DS_Store
 Thumbs.db
